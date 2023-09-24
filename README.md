@@ -92,19 +92,19 @@ Contributions and enhancements to the project are welcome. If you have ideas for
 Here, I provide visual examples to demonstrate the effect of image enhancement techniques:
 
 #### ESRGAN Enhancement
-![ESRGAN Enhancement](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/esrgan_example.jpg)
+![ESRGAN Enhancement](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/esrgan_example.jpg)<br>
  An example of an image enhanced using ESRGAN.
 
 #### Simple Enhancement
-![Simple Enhancement](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/simple_enhancement_example.jpg)
+![Simple Enhancement](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/simple_enhancement_example.jpg)<br>
 An example of an image enhanced using simple enhancement methods.
 
 ### Model performance result
-![Model_Accuray](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/model_accuracy.jpg)
+![Model_Accuray](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/model_accuracy.jpg)<br>
 A plot for accuracies of all models.
 
 ### Model performance result
-![Best Models](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/model_best.jpg)
+![Best Models](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/model_best.jpg)<br>
 A plot for comaprison between best models.
 
 ## License
