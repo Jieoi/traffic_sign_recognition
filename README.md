@@ -109,9 +109,6 @@ A plot for accuracies of all models. ESRGAN produced better result than Simple e
 ![Best Models](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/model_best.jpg)<br>
 A plot for comaprison between best models. ResNet model with ESRGAN enhanced data performed the best (98.84% accuracy)
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 - The GTSRB dataset is used in this project, and credit goes to its creators.
 - The ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks) enhancement technique is used to improve image quality. The ESRGAN code and repository can be found [here](https://github.com/xinntao/ESRGAN).
