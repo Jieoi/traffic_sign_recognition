@@ -1,1 +1,4 @@
 This folder contains the testing and implementation code for data augmentation and enhancement
+
+
+The enhancing_image_RRDB.py is adapted from https://github.com/xinntao/ESRGAN/blob/master/test.py

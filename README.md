@@ -28,6 +28,8 @@ I explore the following machine learning models to achieve robust recognition:
 ### Data Augmentation
 
 Addressing dataset imbalances and potential sampling biases through data augmentation techniques to ensure robust model training.
+![Augmented_data](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/augmented_dist.jpg)<br>
+The distribution of labels before and after augmentation is shown
 
 ### Model Evaluation
 
@@ -56,21 +58,21 @@ Ensemble techniques are employed, combining the strengths of different models to
 - `5_model_training_simple_enhanced_data_CNN.ipynb`: Iteratively develops and tests CNN models with simple enhancement on Google Colab.
   - Hardware Requirements: Google Colab with T5 GPU.
 - `6_model_training_simple_enhanced_data_resnet.ipynb`: Iteratively develops and tests ResNet models with simple enhancement on Google Colab.
-  - Hardware Requirements: Google Colab with T5 GPU.
+  - Hardware Requirements: Google Colab with T5 GPU and extra RAM.
 - `7_model_training_RRDB_enhanced_data_CNN.ipynb`: Iteratively develops and tests CNN models with ESRGAN (RRDB) enhancement on Google Colab.
-  - Hardware Requirements: Google Colab with T5 GPU.
+  - Hardware Requirements: Google Colab with T5 GPU and extra RAM.
 - `8_model_training_RRDB_enhanced_data_resnet.ipynb`: Iteratively develops and tests ResNet models with ESRGAN (RRDB) enhancement on Google Colab.
-  - Hardware Requirements: Google Colab with T5 GPU.
+  - Hardware Requirements: Google Colab with T5 GPU and extra RAM.
 - `9_Fusion_model.ipynb`: Develops a fusion model using model ensemble techniques on Google Colab.
   - Hardware Requirements: Google Colab with T5 GPU.
 - `getData.py`: Python script for extracting data from the source.
-  - Hardware Requirements: Local Machine.
+  - Hardware Requirements: standard laptop CPU
 - `getFile.py`: Python script for getting files.
-  - Hardware Requirements: Local Machine.
+  - Hardware Requirements: standard laptop CPU.
 - `testGetData.py`: Unit tests for data extraction.
-  - Hardware Requirements: Local Machine.
+  - Hardware Requirements: standard laptop CPU
 - `testGetFile.py`: Unit tests for getting files.
-  - Hardware Requirements: Local Machine.
+  - Hardware Requirements: standard laptop CPU
 - `data_augmentation/enhancing_image_RRDB.py`: Python script for implementing the ESRGAN (RRDB) model.
   - Hardware Requirements: Local Machine, called in the enhancement notebooks.
 - `data_augmentation/processing_image.py`: Python script for implementing simple image enhancement and augmentation.
@@ -92,20 +94,20 @@ Contributions and enhancements to the project are welcome. If you have ideas for
 Here, I provide visual examples to demonstrate the effect of image enhancement techniques:
 
 #### ESRGAN Enhancement
-![ESRGAN Enhancement](https://github.com/Jieoi/traffic_sign_recognition/tree/main/img/esrgan_example.jpg)
-*Caption: An example of an image enhanced using ESRGAN.*
+![ESRGAN Enhancement](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/esrgan_example.jpg)<br>
+ An example of an image enhanced using ESRGAN. Image quality increased after ESRGAN is applied
 
 #### Simple Enhancement
-![Simple Enhancement](https://github.com/Jieoi/traffic_sign_recognition/tree/main/img/simple_enhancement_example.jpg)
-*Caption: An example of an image enhanced using simple enhancement methods.*
+![Simple Enhancement](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/simple_enhancement_example.jpg)<br>
+An example of an image enhanced using simple enhancement methods. Using bicubic interpolation, bilateral denoising, adaptive histogram equalization, and Gaussian smoothing
 
 ### Model performance result
-![Model_Accuray](https://github.com/Jieoi/traffic_sign_recognition/tree/main/img/model_accuracy.jpg)
-*Caption: A plot for accuracies of all models.*
+![Model_Accuray](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/model_accuracy.jpg)<br>
+A plot for accuracies of all models. ESRGAN produced better result than Simple enhancement
 
 ### Model performance result
-![Best Models](https://github.com/Jieoi/traffic_sign_recognition/tree/main/img/model_best.jpg)
-*Caption: A plot for comaprison between best models.*
+![Best Models](https://github.com/Jieoi/traffic_sign_recognition/blob/main/img/model_best.jpg)<br>
+A plot for comaprison between best models. ResNet model with ESRGAN enhanced data performed the best (98.84% accuracy)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
