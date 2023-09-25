@@ -110,6 +110,6 @@ A plot for accuracies of all models. ESRGAN produced better result than Simple e
 A plot for comaprison between best models. ResNet model with ESRGAN enhanced data performed the best (98.84% accuracy)
 
 ## Acknowledgments
-- The GTSRB dataset is used in this project, and credit goes to its creators.
+- The GTSRB dataset is used in this project. It is obtained [here](https://benchmark.ini.rub.de/index.html).
 - The ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks) enhancement technique is used to improve image quality. The ESRGAN code and repository can be found [here](https://github.com/xinntao/ESRGAN).
 
