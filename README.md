@@ -4,8 +4,8 @@
 This repository contains the code and resources for a research project focused on improving road sign recognition for autonomous vehicles. The project's goal is to enhance recognition accuracy, especially in challenging conditions like poor lighting and adverse weather.
 
 ### Key Features
-- Utilizes the German Traffic Sign Benchmarks (GTSRB) dataset.
-- Implements various image enhancement techniques, including ESRGAN (RRDB) and simple enhancement methods.
+- Utilizes the [German Traffic Sign Benchmarks (GTSRB) dataset](https://benchmark.ini.rub.de/index.html).
+- Implements various image enhancement techniques, including [ESRGAN (RRDB)](https://github.com/xinntao/ESRGAN) and simple enhancement methods.
 - Develops and evaluates Convolutional Neural Network (CNN) and ResNet models for traffic sign classification.
 - Explores model ensembling techniques to create a fusion model.
 
